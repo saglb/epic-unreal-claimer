@@ -1,104 +1,68 @@
-2024-01-15 06:27:05 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-15 06:27:16 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2024-01-15 06:27:18 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-01-15 06:27:22 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-01-15 06:27:22 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:27:24 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.962s'}
-2024-01-15 06:27:33 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:27:38 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:27:39 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.730s'}
-2024-01-15 06:27:51 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:27:55 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:27:55 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.700s'}
-2024-01-15 06:28:07 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:28:10 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:28:11 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.749s'}
-2024-01-15 06:28:23 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:28:26 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a coffee table'}
-2024-01-15 06:28:27 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like coffee table.', "This is a picture that don't look like coffee table."], 'prompt': 'Please click each image containing a coffee table', 'timit': '0.698s'}
-2024-01-15 06:28:38 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:28:41 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:28:42 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.724s'}
-2024-01-15 06:28:52 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:28:55 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:28:56 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.677s'}
-2024-01-15 06:29:07 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:29:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:29:20 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.697s'}
-2024-01-15 06:29:31 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:29:34 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a coffee table'}
-2024-01-15 06:29:35 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like coffee table.', "This is a picture that don't look like coffee table."], 'prompt': 'Please click each image containing a coffee table', 'timit': '0.693s'}
-2024-01-15 06:29:49 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:29:53 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:29:54 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.665s'}
-2024-01-15 06:30:05 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:30:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:30:13 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.674s'}
-2024-01-15 06:30:23 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:30:27 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a coffee table'}
-2024-01-15 06:30:28 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like coffee table.', "This is a picture that don't look like coffee table."], 'prompt': 'Please click each image containing a coffee table', 'timit': '0.688s'}
-2024-01-15 06:30:39 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:30:44 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:30:45 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.673s'}
-2024-01-15 06:30:57 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:31:01 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a coffee table'}
-2024-01-15 06:31:02 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like coffee table.', "This is a picture that don't look like coffee table."], 'prompt': 'Please click each image containing a coffee table', 'timit': '0.672s'}
-2024-01-15 06:31:15 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:31:24 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a coffee table'}
-2024-01-15 06:31:25 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like coffee table.', "This is a picture that don't look like coffee table."], 'prompt': 'Please click each image containing a coffee table', 'timit': '0.694s'}
-2024-01-15 06:31:38 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:32:08 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 0}
-2024-01-15 06:32:11 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-01-15 06:32:15 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-01-15 06:32:15 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a coffee table'}
-2024-01-15 06:32:16 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like coffee table.', "This is a picture that don't look like coffee table."], 'prompt': 'Please click each image containing a coffee table', 'timit': '0.681s'}
-2024-01-15 06:32:27 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:32:31 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:32:32 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.654s'}
-2024-01-15 06:32:46 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:32:49 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:32:50 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.689s'}
-2024-01-15 06:33:00 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:33:03 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:33:04 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.690s'}
-2024-01-15 06:33:15 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:33:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:33:20 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.714s'}
-2024-01-15 06:33:32 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:33:36 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:33:37 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.698s'}
-2024-01-15 06:33:48 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:33:52 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a coffee table'}
-2024-01-15 06:33:53 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like coffee table.', "This is a picture that don't look like coffee table."], 'prompt': 'Please click each image containing a coffee table', 'timit': '0.733s'}
-2024-01-15 06:34:09 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:34:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the rabbit's eye"}
-2024-01-15 06:34:17 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:34:21 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:34:22 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.679s'}
-2024-01-15 06:34:37 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:34:42 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:34:43 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.674s'}
-2024-01-15 06:34:55 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:34:58 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:34:59 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.675s'}
-2024-01-15 06:35:11 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:35:14 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a coffee table'}
-2024-01-15 06:35:15 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like coffee table.', "This is a picture that don't look like coffee table."], 'prompt': 'Please click each image containing a coffee table', 'timit': '0.725s'}
-2024-01-15 06:35:26 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:35:29 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:35:30 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.738s'}
-2024-01-15 06:35:41 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:35:45 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:35:46 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.767s'}
-2024-01-15 06:35:56 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:36:02 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the animal wearing sunglasses'}
-2024-01-15 06:36:03 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please click on the animal wearing sunglasses.', "This is a picture that don't look like please click on the animal wearing sunglasses."], 'prompt': 'Please click on the animal wearing sunglasses', 'timit': '0.717s'}
-2024-01-15 06:36:14 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:36:44 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 1}
-2024-01-15 06:36:46 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-01-15 06:36:50 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-01-15 06:36:50 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please select the devices used to observe distant objects in space.'}
-2024-01-15 06:36:51 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please select the devices used to observe distant objects in space.', "This is a picture that don't look like please select the devices used to observe distant objects in space."], 'prompt': 'Please select the devices used to observe distant objects in space.', 'timit': '0.673s'}
-2024-01-15 06:37:02 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-15 06:37:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a coffee table'}
-2024-01-15 06:37:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like coffee table.', "This is a picture that don't look like coffee table."], 'prompt': 'Please click each image containing a coffee table', 'timit': '0.676s'}
+2024-01-16 06:27:37 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-16 06:27:44 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
+2024-01-16 06:27:46 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
+2024-01-16 06:27:51 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
+2024-01-16 06:27:51 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a portable computer.'}
+2024-01-16 06:27:52 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like portable computer.', "This is a picture that don't look like portable computer."], 'prompt': 'Please click each image containing a portable computer.', 'timit': '0.999s'}
+2024-01-16 06:28:02 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-16 06:28:05 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing an outdoor gear'}
+2024-01-16 06:28:05 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click each image containing an outdoor gear'}
+2024-01-16 06:28:13 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
+2024-01-16 06:28:18 | DEBUG    | epic_games.agent:insert_challenge:209 | Attack challenge - {'stage': 'login_prod'}
+2024-01-16 06:28:21 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleaѕe click each image containing an outdoor gear'}
+2024-01-16 06:28:21 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Pleaѕe click each image containing an outdoor gear'}
+2024-01-16 06:28:24 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-16 06:28:27 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleasе click each image containіng office equipment'}
+2024-01-16 06:28:28 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like office equipment.', "This is a picture that don't look like office equipment."], 'prompt': 'Pleasе click each image containіng office equipment', 'timit': '0.750s'}
+2024-01-16 06:28:38 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
+2024-01-16 06:29:08 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
+2024-01-16 06:29:16 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/user_data_dir/epic-games@trinkschen/ctx_cookie.json')}
+2024-01-16 06:29:16 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-01-16 06:29:16 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Sail Forth', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
+2024-01-16 06:29:16 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
+2024-01-16 06:29:26 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3579), thread 'MainThread' (139810041449344): - {}
+Traceback (most recent call last):
+  File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 162, in <module>
+    asyncio.run(run())
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+> File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 158, in run
+    await agent.stash()
+  File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 151, in stash
+    await self.claim_epic_games(context)
+  File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 122, in claim_epic_games
+    await epic.claim_weekly_games(page, single_promotions)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/tenacity/_asyncio.py", line 88, in async_wrapped
+    return await fn(*args, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/tenacity/_asyncio.py", line 47, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/tenacity/_asyncio.py", line 50, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/epic_games/agent.py", line 310, in claim_weekly_games
+    await expect(cta_btn).to_have_text("View In Cart")
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 20134, in to_have_text
+    await self._impl_obj.to_have_text(
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 459, in to_have_text
+    await self._expect_impl(
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 68, in _expect_impl
+    raise AssertionError(
+AssertionError: Locator expected to have text 'View In Cart'
+Actual value: None 
+Call log:
+LocatorAssertions.to_have_text with timeout 5000ms
+  - waiting for locator("//aside//button[@data-testid='add-to-cart-cta-button']")
+
