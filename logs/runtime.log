@@ -1,47 +1,20 @@
-2024-01-18 06:27:35 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-18 06:27:43 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2024-01-18 06:27:46 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-01-18 06:27:50 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-01-18 06:27:50 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing office equipment'}
-2024-01-18 06:27:51 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like office equipment.', "This is a picture that don't look like office equipment."], 'prompt': 'Please click each image containing office equipment', 'timit': '0.948s'}
-2024-01-18 06:28:02 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-18 06:28:06 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing an outdoor gear'}
-2024-01-18 06:28:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click each image containing an outdoor gear'}
-2024-01-18 06:28:12 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-18 06:28:16 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing office equipment'}
-2024-01-18 06:28:16 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like office equipment.', "This is a picture that don't look like office equipment."], 'prompt': 'Please click each image containing office equipment', 'timit': '0.720s'}
-2024-01-18 06:28:28 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-18 06:28:31 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing office equipment'}
-2024-01-18 06:28:32 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like office equipment.', "This is a picture that don't look like office equipment."], 'prompt': 'Please click each image containing office equipment', 'timit': '0.714s'}
-2024-01-18 06:28:42 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2024-01-18 06:28:52 | DEBUG    | epic_games.agent:insert_challenge:209 | Attack challenge - {'stage': 'login_prod'}
-2024-01-18 06:28:52 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleasе click eаch image containing a foreѕt'}
-2024-01-18 06:28:52 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Pleasе click eаch image containing a foreѕt'}
-2024-01-18 06:28:54 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-18 06:28:58 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleаse click eaсh image сοntaining аn outdοor gear'}
-2024-01-18 06:28:58 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Pleаse click eaсh image сοntaining аn outdοor gear'}
-2024-01-18 06:29:02 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-18 06:29:05 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease click each image containing an outԁoor gear'}
-2024-01-18 06:29:05 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Ρlease click each image containing an outԁoor gear'}
-2024-01-18 06:29:10 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-18 06:29:13 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click eаch image containing an outdoor geаr'}
-2024-01-18 06:29:13 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click eаch image containing an outdoor geаr'}
-2024-01-18 06:29:17 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-18 06:29:21 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease click eacһ image containing offiсe equipment'}
-2024-01-18 06:29:22 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like office equipment.', "This is a picture that don't look like office equipment."], 'prompt': 'Ρlease click eacһ image containing offiсe equipment', 'timit': '0.718s'}
-2024-01-18 06:29:31 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-18 06:29:35 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image cοntaining office equipmеnt'}
-2024-01-18 06:29:36 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like office equipment.', "This is a picture that don't look like office equipment."], 'prompt': 'Please click each image cοntaining office equipmеnt', 'timit': '0.679s'}
-2024-01-18 06:29:42 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-18 06:29:48 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click eaсһ image сontaining office equipment'}
-2024-01-18 06:29:48 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like office equipment.', "This is a picture that don't look like office equipment."], 'prompt': 'Please click eaсһ image сontaining office equipment', 'timit': '0.702s'}
-2024-01-18 06:29:56 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2024-01-18 06:30:26 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
-2024-01-18 06:30:35 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/user_data_dir/epic-games@trinkschen/ctx_cookie.json')}
-2024-01-18 06:30:35 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-01-18 06:30:35 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Sail Forth', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
-2024-01-18 06:30:35 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
-2024-01-18 06:30:45 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3699), thread 'MainThread' (140212028083072): - {}
+2024-01-19 06:27:34 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-19 06:27:42 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
+2024-01-19 06:27:45 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
+2024-01-19 06:27:49 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
+2024-01-19 06:27:49 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a desert'}
+2024-01-19 06:27:49 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click each image containing a desert'}
+2024-01-19 06:27:52 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
+2024-01-19 06:28:26 | DEBUG    | epic_games.agent:insert_challenge:209 | Attack challenge - {'stage': 'login_prod'}
+2024-01-19 06:28:26 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease click eaсһ image сontaining a desert'}
+2024-01-19 06:28:26 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Ρlease click eaсһ image сontaining a desert'}
+2024-01-19 06:28:28 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
+2024-01-19 06:28:58 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
+2024-01-19 06:29:06 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/user_data_dir/epic-games@trinkschen/ctx_cookie.json')}
+2024-01-19 06:29:06 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-01-19 06:29:06 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'LOVE', 'url': 'https://store.epicgames.com/en-US/p/love-65c4d0'}
+2024-01-19 06:29:06 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/love-65c4d0'}
+2024-01-19 06:29:17 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3549), thread 'MainThread' (140191245867904): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -75,11 +48,11 @@ Traceback (most recent call last):
     result = await fn(*args, **kwargs)
   File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/epic_games/agent.py", line 310, in claim_weekly_games
     await expect(cta_btn).to_have_text("View In Cart")
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 20134, in to_have_text
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 20230, in to_have_text
     await self._impl_obj.to_have_text(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 459, in to_have_text
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 471, in to_have_text
     await self._expect_impl(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 68, in _expect_impl
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 70, in _expect_impl
     raise AssertionError(
 AssertionError: Locator expected to have text 'View In Cart'
 Actual value: None 

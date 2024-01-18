@@ -1,4 +1,4 @@
-2024-01-18 06:30:45 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3699), thread 'MainThread' (140212028083072): - {}
+2024-01-19 06:29:17 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3549), thread 'MainThread' (140191245867904): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -32,11 +32,11 @@ Traceback (most recent call last):
     result = await fn(*args, **kwargs)
   File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/epic_games/agent.py", line 310, in claim_weekly_games
     await expect(cta_btn).to_have_text("View In Cart")
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 20134, in to_have_text
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/async_api/_generated.py", line 20230, in to_have_text
     await self._impl_obj.to_have_text(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 459, in to_have_text
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 471, in to_have_text
     await self._expect_impl(
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 68, in _expect_impl
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_assertions.py", line 70, in _expect_impl
     raise AssertionError(
 AssertionError: Locator expected to have text 'View In Cart'
 Actual value: None 
