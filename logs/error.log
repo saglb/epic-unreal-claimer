@@ -1,4 +1,4 @@
-2024-01-22 06:34:10 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3586), thread 'MainThread' (140229810277248): - {}
+2024-01-23 06:27:59 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3587), thread 'MainThread' (140719643515776): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -18,6 +18,18 @@ Traceback (most recent call last):
     await self.claim_epic_games(context)
   File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 98, in claim_epic_games
     if await epic.authorize(page):
-  File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/epic_games/agent.py", line 269, in authorize
-    raise RuntimeError(f"Failed to flush token - agent={self.__class__.__name__}")
-RuntimeError: Failed to flush token - agent=EpicGames
+  File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/epic_games/agent.py", line 260, in authorize
+    match await self._login(page):
+  File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/epic_games/agent.py", line 244, in _login
+    await insert_challenge(stage="email_exists_prod")
+  File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/epic_games/agent.py", line 217, in insert_challenge
+    result = await self._solver.execute(window=stage)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/agents/playwright/control.py", line 626, in execute
+    self._parse_label()
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/agents/playwright/control.py", line 240, in _parse_label
+    self.label = handle(self.prompt)
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/components/prompt_handler.py", line 100, in handle
+    return split_prompt_message(label_cleaning(x), "en")
+  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/hcaptcha_challenger/components/prompt_handler.py", line 57, in split_prompt_message
+    return re.split(r"all (.*) images", prompt_message)[1].strip()
+IndexError: list index out of range
