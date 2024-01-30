@@ -1,70 +1,59 @@
-2024-01-30 06:26:39 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-30 06:26:47 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2024-01-30 06:26:49 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-01-30 06:26:53 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-01-30 06:26:53 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appears broken or tampered with'}
-2024-01-30 06:26:58 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:27:01 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
-2024-01-30 06:27:14 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:27:25 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appears broken or tampered with'}
-2024-01-30 06:27:37 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:27:44 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
-2024-01-30 06:27:46 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'head_of_the_meerkat_2311_yolov8n.onnx', 'ash': "please click on the meerkat's head default"}
-2024-01-30 06:27:50 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:27:53 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appears broken or tampered with'}
-2024-01-30 06:27:57 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:28:05 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appears broken or tampered with'}
-2024-01-30 06:28:13 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:28:17 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appears broken or tampered with'}
-2024-01-30 06:28:22 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:28:26 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
-2024-01-30 06:28:32 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:28:35 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appears broken or tampered with'}
-2024-01-30 06:28:41 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:28:51 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
-2024-01-30 06:28:53 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'head_of_the_meerkat_2311_yolov8n.onnx', 'ash': "please click on the meerkat's head default"}
-2024-01-30 06:28:57 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:29:02 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appears broken or tampered with'}
-2024-01-30 06:29:09 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2024-01-30 06:29:42 | DEBUG    | epic_games.agent:insert_challenge:209 | Attack challenge - {'stage': 'login_prod'}
-2024-01-30 06:29:42 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Plеase click whеre the imagе aрpeаrs broken or tampereԁ with'}
-2024-01-30 06:29:48 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:29:52 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease cliсk where the image appears broken or tampered with'}
-2024-01-30 06:29:58 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:30:02 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
-2024-01-30 06:30:08 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:30:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appears broken or tampered with'}
-2024-01-30 06:30:20 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:30:24 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appearѕ broken or tampered with'}
-2024-01-30 06:30:33 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:30:36 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's heaԁ"}
-2024-01-30 06:30:41 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:30:44 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please cliсk where the image appears broken or tampered with'}
-2024-01-30 06:30:50 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:30:56 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image арpears broken or tampered with'}
-2024-01-30 06:31:01 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:31:06 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleаse click each image containing something that is an animаl'}
-2024-01-30 06:31:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like something that is an animal.', "This is a picture that don't look like something that is an animal."], 'prompt': 'Pleаse click each image containing something that is an animаl', 'timit': '0.818s'}
-2024-01-30 06:31:19 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:31:23 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please clіck where the image appears broken or tampereԁ with'}
-2024-01-30 06:31:29 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:31:33 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleasе click where tһe image appears broken or tampered with'}
-2024-01-30 06:31:43 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:31:49 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing something that is an animal'}
-2024-01-30 06:31:50 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like something that is an animal.', "This is a picture that don't look like something that is an animal."], 'prompt': 'Please click each image containing something that is an animal', 'timit': '0.719s'}
-2024-01-30 06:32:02 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:32:05 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please cliсk on the meеrkat's һеad"}
-2024-01-30 06:32:14 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:32:25 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on tһe meerkat'ѕ head"}
-2024-01-30 06:32:32 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:32:39 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click where the image appears broken or tampered with'}
-2024-01-30 06:32:45 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-30 06:32:45 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
-2024-01-30 06:32:53 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/user_data_dir/epic-games@trinkschen/ctx_cookie.json')}
-2024-01-30 06:32:53 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-01-30 06:32:53 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Infinifactory', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
-2024-01-30 06:32:53 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
-2024-01-30 06:33:03 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3645), thread 'MainThread' (140340008950656): - {}
+2024-01-31 06:25:47 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-31 06:25:59 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
+2024-01-31 06:26:01 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
+2024-01-31 06:26:06 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
+2024-01-31 06:26:06 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
+2024-01-31 06:26:12 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:26:15 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the most similar shape to the following reference image:'}
+2024-01-31 06:26:26 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:26:29 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
+2024-01-31 06:26:35 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:26:38 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
+2024-01-31 06:26:40 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'head_of_the_meerkat_2311_yolov8n.onnx', 'ash': "please click on the meerkat's head default"}
+2024-01-31 06:26:45 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:26:48 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
+2024-01-31 06:26:49 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'head_of_the_meerkat_2311_yolov8n.onnx', 'ash': "please click on the meerkat's head default"}
+2024-01-31 06:26:54 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
+2024-01-31 06:27:27 | DEBUG    | epic_games.agent:insert_challenge:209 | Attack challenge - {'stage': 'login_prod'}
+2024-01-31 06:27:27 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please сliсk on tһe meerkat's һeаd"}
+2024-01-31 06:27:35 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:27:40 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
+2024-01-31 06:27:41 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'head_of_the_meerkat_2311_yolov8n.onnx', 'ash': "please click on the meerkat's head default"}
+2024-01-31 06:27:45 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:27:51 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please cliсk on the meerkat's head"}
+2024-01-31 06:27:58 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:28:04 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the mοst similar shape tο the following reference image:'}
+2024-01-31 06:28:10 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:28:13 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please clіck on the meerkat's heаd"}
+2024-01-31 06:28:17 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'head_of_the_meerkat_2311_yolov8n.onnx', 'ash': "please click on the meerkat's head default"}
+2024-01-31 06:28:19 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:28:23 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Ρlease cliсk οn the meerkat's head"}
+2024-01-31 06:28:27 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:28:31 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
+2024-01-31 06:28:36 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:28:44 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's һead"}
+2024-01-31 06:28:51 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:28:55 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
+2024-01-31 06:29:02 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:29:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please clіck on the meerkat'ѕ head"}
+2024-01-31 06:29:16 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:29:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please clісk on the meerkat's head"}
+2024-01-31 06:29:26 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:29:30 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please сliсk οn the meerkat's hеaԁ"}
+2024-01-31 06:29:38 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:29:42 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please сlісk on the meerkat's head"}
+2024-01-31 06:29:53 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:30:04 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please сliсk on the meerkat's head"}
+2024-01-31 06:30:05 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'head_of_the_meerkat_2311_yolov8n.onnx', 'ash': "please click on the meerkat's head default"}
+2024-01-31 06:30:10 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:30:13 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Please click on the meerkat's head"}
+2024-01-31 06:30:19 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2024-01-31 06:30:19 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
+2024-01-31 06:30:28 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/user_data_dir/epic-games@trinkschen/ctx_cookie.json')}
+2024-01-31 06:30:28 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-01-31 06:30:28 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Infinifactory', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-31 06:30:28 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-31 06:30:38 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3565), thread 'MainThread' (140080539466624): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
