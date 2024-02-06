@@ -1,5 +1,4 @@
-2024-02-06 06:35:42 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:680 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge response'}
-2024-02-06 06:36:14 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3724), thread 'MainThread' (139849174465408): - {}
+2024-02-07 06:33:45 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3551), thread 'MainThread' (139731218144128): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-unreal-claimer/epic-unreal-claimer/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
